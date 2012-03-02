@@ -1,0 +1,17 @@
+Hallo,
+
+dies ist eine kleines Test-Anwendung zum Buchen von Tickets.
+Die Anwendung wurde auf dem Grails-Stammtisch 2012 in Hamburg zu Demo-Zwecken vorgestellt.
+Technische Basis ist Grails 2.0.0.
+
+Um das Projekt in die Cloud von Cloudbees zu befördern, könnte dieser Link hilfreich sein:
+http://grails.org/plugin/cloud-bees
+
+Legt Euch einen kostenlosen Account bei Cloudbees an. Die Keys findet ihr in den Account-Settings; hinterlegt sie in der BuildConfig.groovy.
+Anschließend noch eine MySQL-DB anlegen und den JDBC-String in der DataSource.groovy eintragen.
+Dann nur noch ein war bauen (grails war) und grails bees-app-deploy [appId] [tag] benutzen.
+
+Das Projekt kann natürlich auch lokal gestartet werden, ohne die Cloud-Parameter einzutragen.
+
+
+Viel Spaß beim Ausprobieren und werkeln!
